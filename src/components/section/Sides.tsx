@@ -4,9 +4,6 @@ import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
 import GitHubIcon from '@/components/icons/GithubIcon';
 import LinkedInIcon from '@/components/icons/LinkedInIcon';
-import XIcon from '@/components/icons/XIcon';
-import YouTubeIcon from '@/components/icons/YoutubeIcon';
-import DribbbleIcon from '@/components/icons/DribbbleIcon';
 import useInView from '@/hooks/useInView';
 import { config } from '@/config/config';
 
@@ -31,24 +28,9 @@ const Sides: React.FC = () => {
       label: 'GitHub',
     },
     {
-      href: config.urls.youtubeProfile,
-      icon: <YouTubeIcon />,
-      label: 'YouTube',
-    },
-    {
-      href: config.urls.XProfile,
-      icon: <XIcon />,
-      label: 'X',
-    },
-    {
       href: config.urls.linkedinProfile,
       icon: <LinkedInIcon />,
       label: 'LinkedIn',
-    },
-    {
-      href: config.urls.dribbbleProfile,
-      icon: <DribbbleIcon />,
-      label: 'Dribbble',
     },
   ];
 
