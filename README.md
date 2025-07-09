@@ -1,60 +1,54 @@
-# SHEMMEE | Front-end Developer Portfolio
+# Anurag Singh | Software Developer Portfolio
 
-![Portfolio launch](https://github.com/user-attachments/assets/d8ff5b21-580e-4000-8173-5d416af8a369)
+Welcome to my personal portfolio website! This project showcases my skills, projects, and experience as a passionate Software Developer and Data Enthusiast.
 
-## 🚀 Project Overview
+## 🚀 Overview
+I’m Anurag Singh, currently pursuing a B.Tech in Computer Science & Engineering from Bharati Vidyapeeth College of Engineering, Pune. With a strong foundation in the MERN Stack, Cloud Platforms (GCP & AWS), and Data Engineering, I thrive on building scalable, real-time web applications and intelligent data-driven solutions.
 
-I'm Shemmee, a front-end developer with a passion for building engaging, scalable, and unique web experiences. This portfolio showcases my skills and projects, built with the powerful Next.js framework. It's designed for optimal performance, accessibility, and visual appeal across all devices.
+## 🌟 Features
+- **Responsive Design**: Seamless experience across devices
+- **Dark/Light Mode**: User-friendly theme toggle
+- **Contact Form**: Send me a message directly from the site
+- **Project Showcase**: Detailed highlights of my best work
+- **Performance Optimized**: Fast load times and smooth animations
 
-### 🌟 Key Features
+## 🛠️ Tech Stack
+- **Frontend**: React.js, Next.js, TypeScript, TailwindCSS
+- **Backend**: Node.js, Express.js, REST APIs
+- **Database**: MongoDB
+- **Cloud**: GCP (Pub/Sub, BigQuery), AWS
+- **Other**: Docker, Jenkins, Postman, Notion, Git
 
-- **💻 Responsive Design:** Optimized for seamless viewing across desktops, tablets, and mobile devices.
-- **📧 Contact Form:** Visitors can easily reach out via email, integrated through Nodemailer.
-- **🌗 Dark/Light Mode Toggle:** Users can switch between themes, providing a personalized viewing experience.
-- **🔍 SEO Optimization:** Proper meta tags, sitemap, and robots.txt ensure higher visibility on search engines.
-- **⚡ Performance Optimization:** Preloaded resources, optimized images, and lazy loading ensure fast and smooth performance.
+## 📂 Notable Projects
+- **Easy Rentals**: Property renting web platform with real-time chat and secure authentication
+- **Transactional Data Stream**: Real-time data streaming pipeline using GCP
+- **Multiple Sclerosis Disease Prediction**: ML-based disease prediction
+- **React Spreadsheet**: [Live Demo](https://react-assignmentcheck.vercel.app/)
 
-### 🌐 Technologies Used
-
-- **Frontend:** Next.js, React, TypeScript
-- **Styling:** TailwindCSS, CSS
-- **Animation:** Framer Motion
-- **Email Integration:** Nodemailer
-- **Hosting & Deployment:** Vercel
-
-### 📊 Lighthouse Score
-
-Built with a focus on performance, accessibility, best practices, and SEO, achieving an excellent Lighthouse score:
-
-![lighthouse_score](https://github.com/user-attachments/assets/56084429-1a4d-4fd5-83be-a9ef06fa9763)
-
-## 🔧 Getting Started
-
-> This repository serves as a template version of my portfolio. Feel free to fork, modify, or customize it to suit your needs.
-
-To run this project locally:
-
+## 📦 Getting Started
 1. **Clone the repository:**
-
    ```bash
-   git clone https://github.com/s-shemmee/my-portfolio-website.git
+   git clone https://github.com/Anurag03singh/portfolio.git
+   cd portfolio
    ```
-
 2. **Install dependencies:**
-
    ```bash
-   cd my-portfolio-website
    yarn install
+   # or
+   npm install
    ```
-
 3. **Run the development server:**
-
    ```bash
    yarn dev
+   # or
+   npm run dev
    ```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 📧 Contact
+- **Email:** anuragrwk03@gmail.com
+- **GitHub:** [Anurag03singh](https://github.com/Anurag03singh)
 
-## 📜 License
+---
 
-This project is licensed under the MIT License, meaning you’re free to use, modify, and distribute the code with proper attribution.
+> Built with 💜 by Anurag Singh 
