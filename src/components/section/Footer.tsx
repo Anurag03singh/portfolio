@@ -2,11 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
-import LinkedInIcon from '@/components/icons/LinkedInIcon';
 import GitHubIcon from '@/components/icons/GithubIcon';
-import XIcon from '@/components/icons/XIcon';
-import YouTubeIcon from '@/components/icons/YoutubeIcon';
-import DribbbleIcon from '@/components/icons/DribbbleIcon';
 import ForkIcon from '@/components/icons/ForkIcon';
 import StarIcon from '@/components/icons/StarIcon';
 import useInView from '@/hooks/useInView';
@@ -65,7 +61,7 @@ const Footer: React.FC = () => {
       >
         <li>
           <a
-            href={config.urls.githubProfile}
+            href={config.githubProfile}
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-700 dark:text-gray-300 hover:text-bluebell dark:hover:text-bluebell focus:text-bluebell dark:focus:text-bluebell"
@@ -82,7 +78,7 @@ const Footer: React.FC = () => {
         variants={variants}
       >
         <a
-          href={config.urls.portfolioRepository}
+          href={config.portfolioRepository}
           className="text-gray-700 dark:text-gray-300 hover:text-bluebell dark:hover:text-bluebell focus:text-bluebell dark:focus:text-bluebell"
           aria-label="Portfolio"
         >

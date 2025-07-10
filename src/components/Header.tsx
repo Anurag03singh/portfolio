@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState } from 'react';
-import Logo from '@/components/svgs/logo.svg';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import ThemeToggle from './widgets/ThemeToggle';

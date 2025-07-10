@@ -4,9 +4,6 @@ import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
 import GitHubIcon from '@/components/icons/GithubIcon';
 import LinkedInIcon from '@/components/icons/LinkedInIcon';
-import XIcon from '@/components/icons/XIcon';
-import YouTubeIcon from '@/components/icons/YoutubeIcon';
-import DribbbleIcon from '@/components/icons/DribbbleIcon';
 import useInView from '@/hooks/useInView';
 import { config } from '@/config/config';
 
@@ -26,29 +23,14 @@ const Sides: React.FC = () => {
 
   const socialMediaLinks = [
     {
-      href: config.urls.githubProfile,
+      href: config.githubProfile,
       icon: <GitHubIcon />,
       label: 'GitHub',
     },
     {
-      href: config.urls.youtubeProfile,
-      icon: <YouTubeIcon />,
-      label: 'YouTube',
-    },
-    {
-      href: config.urls.XProfile,
-      icon: <XIcon />,
-      label: 'X',
-    },
-    {
-      href: config.urls.linkedinProfile,
+      href: config.linkedinProfile,
       icon: <LinkedInIcon />,
       label: 'LinkedIn',
-    },
-    {
-      href: config.urls.dribbbleProfile,
-      icon: <DribbbleIcon />,
-      label: 'Dribbble',
     },
   ];
 
@@ -108,14 +90,14 @@ const Sides: React.FC = () => {
       >
         <div className="flex flex-col items-center">
           <motion.a
-            href={`mailto:${config.urls.email}`}
+            href={`mailto:${config.email}`}
             className="font-serif font-medium text-sm text-gray-700 tracking-widest dark:text-gray-300 hover:text-bluebell dark:hover:text-bluebell focus:text-bluebell dark:focus:text-bluebell [writing-mode:vertical-lr] transition-transform hover:-translate-y-1 mb-6"
             initial={{ opacity: 0 }}
             animate={{ opacity: rightSideInView ? 1 : 0 }}
             transition={{ duration: 0.5 }}
-            aria-label={`Email ${config.urls.email}`}
+            aria-label={`Email ${config.email}`}
           >
-            {config.urls.email}
+            {config.email}
           </motion.a>
           <motion.div
             className="w-px h-24 bg-gray-900 dark:bg-gray-50"
